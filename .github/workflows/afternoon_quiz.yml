@@ -33,8 +33,8 @@ jobs:
 
       - name: Commit updated database
         run: |
-          git config user.name "ssc-cgl-bot"
-          git config user.email "actions@users.noreply.github.com"
+          git config user.name "SG17THEProgrammer"
+          git config user.email "ishraygupta@gmail.com"
           git add database.db
           git diff --quiet --cached || git commit -m "chore: update database after afternoon quiz [skip ci]"
           git push
